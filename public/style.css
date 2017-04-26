@@ -1,0 +1,10 @@
+body {
+    padding-top: 90px;
+}
+.btn-submit:hover,
+.btn-submit:focus {
+  color: #fff;
+  background-color: #53A3CD;
+  border-color: #53A3CD;
+}
+

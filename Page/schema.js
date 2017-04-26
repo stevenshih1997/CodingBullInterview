@@ -5,10 +5,9 @@ var Schema = mongoose.Schema({
   body: String,
 });
 
-var Post = module.exports = mongoose.model('User', Schema);
+var Post = module.exports = mongoose.model('Post', Schema);
 
 module.exports.createPost = function(newPost, callback){
-
           newPost.save(callback);
- 
+
 };
